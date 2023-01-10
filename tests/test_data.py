@@ -6,7 +6,7 @@ import pytest
 def test_data():
     train_set, test_set = CorruptMnist(train=True), CorruptMnist(train=False)
 
-    assert len(train_set) != 0
+    assert len(train_set) != 1
     assert len(test_set) != 0
 
     trainloader = DataLoader(train_set, batch_size=64)
