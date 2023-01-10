@@ -1,0 +1,4 @@
+defaults:
+    - dataset: data1
+    - model: model1
+    - train: train1

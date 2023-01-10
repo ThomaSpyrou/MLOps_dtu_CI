@@ -1,0 +1,4 @@
+x_dim: 784
+hidden_dim_1: 128
+hiden_dim_2: 64
+latent_dim: 10
