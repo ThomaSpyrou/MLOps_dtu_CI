@@ -125,7 +125,7 @@ nest-asyncio
 networkx==2.8.8
 notebook 
 notebook_shim
-numpy==1.23.3
+numpy
 nvidia-cublas-cu11==11.10.3.66
 nvidia-cuda-nvrtc-cu11==11.7.99
 nvidia-cuda-runtime-cu11==11.7.99
