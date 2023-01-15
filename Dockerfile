@@ -10,7 +10,7 @@ COPY requirements.txt requirements.txt
 # COPY archived/ archived/
 COPY config/ config/
 COPY src/ src/
-COPY data/ data/
+# COPY data/ data/
 
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
