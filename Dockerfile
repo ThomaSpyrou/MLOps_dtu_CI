@@ -7,7 +7,7 @@ RUN apt update && \
     apt clean && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt requirements.txt
-COPY archived/ archived/
+# COPY archived/ archived/
 COPY config/ config/
 COPY src/ src/
 COPY data/ data/
